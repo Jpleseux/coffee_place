@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    color: #434343;
+    margin-bottom: 60px;
+    position: relative;
+    padding: 15px;
+    width: 90%;
+    margin: 0 auto;
+}
+.galery-wrapper{
+    overflow-x: auto;
+}
+.galery{
+    display: flex;
+    flex-flow:row nowrap ;
+    gap: 15px;
+}
+.arrow-left, .arrow-right{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, #ffffd6 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+.arrow-right{
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, #ffffd6 200%);
+}
+.arrow-right:hover, .arrow-left:hover{
+    opacity: 1;
+}
+.item{
+    margin-left: 50px;
+    position: relative;
+    height: 200px;
+    width: 350px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: all 10ms ease-in-out;
+}
+.current-item{
+    opacity: 1;
+}
+.galery-wrapper{
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.galery-wrapper::-webkit-scrollbar{
+    display: none;
+}
+.box{
+    max-height: 450px;}
+
+.description{
+    margin-left: 50px;
+    opacity: 0;
+    padding: 0px 0px 2% 2%;
+    text-align:left;
+    background-color: #fff;
+    border-radius: 10px;
+    bottom: 15%;
+    max-height: 40%;
+    position: relative;
+    transition: all 600ms ease-in-out;
+}
+
+.description h4{
+    font-size: 140%;
+    padding: 5px 0px 0 0;
+}
+
+.description  h1{
+    max-width: 50%;
+    display: inline-flex;
+    opacity: 90%;
+}
+.description p{
+    box-shadow: 3px #e4e4e4a6;
+    font-size: 80%;
+}
+.description a{
+    text-decoration: none;
+}
+.description button{
+    color: #434343;
+    border-style: solid;
+    padding: 0 4px 0px 4px;
+    margin-left: 6px;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    background: transparent;
+}
+.description h5{
+    
+    padding: 0 4px 0 4px;
+    border-radius: 10px;
+    border: green solid 2px;
+    color: green;
+    font-weight: 400%;
+    display: inline;
+    text-decoration: none;
+    opacity: 70%;
+}
+.description span{
+    text-align: center;
+}
+.ativo{
+    opacity: 1;
+}
+.secret{
+    display: none;
+}
+
+.text:hover .preco{
+    text-decoration: underline;
+}

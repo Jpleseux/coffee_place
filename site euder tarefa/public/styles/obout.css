@@ -1,0 +1,68 @@
+img{
+    position: relative;
+    border-radius: 10px;
+    width: 30%;
+    height: 40%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enterprise{
+    border-radius: 10px;
+    perspective: 1000px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2% 2% 0 2%;
+    background-color: #dedead;
+}
+.enterprise h1{
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    padding: 1, 1, 1, 1;
+}
+.enterprise > h4{
+    padding: 1, 1, 1, 1;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: left;
+    color: #3f3f2e;
+}
+.enterprise > p{
+    text-align: left;
+    font-size: 20;
+}
+.enterprise h5{
+    font-size: 25px;
+}
+.contact{
+    border-bottom: #2f2f24;
+    border-radius: 5px;
+    padding: 5%;
+    text-decoration: none;
+    margin-top: 0; 
+}
+.contact >p{
+    text-decoration: wavy;
+}
+.contact a{
+    text-align: right;
+    position: relative;
+    left: 0;
+    color: #2f2f24;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: #33aa00;
+}
+.icon{
+    width: 20%;
+    height: 20%;
+}
+.hub{
+    float:inline-end;
+}
